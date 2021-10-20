@@ -1,0 +1,33 @@
+<ul class='c-social-icons o-plain-list'>
+  {{#if @site.twitter}}
+    <li class='c-social-icons__item'>
+      <a href='{{ twitter_url }}' target='_blank' rel='noopener'>
+        <span class='c-social-icons__icon' data-icon='ei-sc-twitter' data-size='s'></span>
+        <span class='u-hidden-visually'>Twitter</span>
+      </a>
+    </li>
+  {{/if}}
+
+  {{#if @site.facebook}}
+    <li class='c-social-icons__item'>
+      <a href='{{ facebook_url }}' target='_blank' rel='noopener'>
+        <span class='c-social-icons__icon' data-icon='ei-sc-facebook' data-size='s'></span>
+        <span class='u-hidden-visually'>Facebook</span>
+      </a>
+    </li>
+  {{/if}}
+
+  <li class='c-social-icons__item'>
+    <a href='#' target='_blank' rel='noopener'>
+      <span class='c-social-icons__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+      <span class='u-hidden-visually'>Instagram</span>
+    </a>
+  </li>
+
+  <li class='c-social-icons__item'>
+    <a href='#' target='_blank' rel='noopener'>
+      <span class='c-social-icons__icon' data-icon='ei-sc-pinterest' data-size='s'></span>
+      <span class='u-hidden-visually'>Pinterest</span>
+    </a>
+  </li>
+</ul>
